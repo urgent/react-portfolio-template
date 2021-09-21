@@ -1,0 +1,25 @@
+.parallax-container {
+  position: relative;
+  padding-bottom: 35rem;
+}
+
+.parallax-content {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.parallax-background-relative {
+  border: 1px solid red;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.parallax-background-fixed {
+  position: fixed;
+  border: 1px solid red;
+  border-radius: 4px;
+  width: 100%;
+  height: 95vh;
+  top: 0;
+  left: 0;
+}
